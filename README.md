@@ -29,7 +29,7 @@ This project was developed as part of an internship task to understand real-worl
 - Next.js API Routes
 - Node.js
 - MongoDB
-- 
+   
 🧠 Learning Outcomes
 
 Hands-on experience with Next.js App Router
