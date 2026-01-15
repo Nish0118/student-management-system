@@ -1,4 +1,51 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 Student Management System
+
+A full-stack **Student Management System** built using **Next.js (App Router)** and **MongoDB**, designed to manage student records efficiently with complete CRUD functionality.
+
+This project was developed as part of an internship task to understand real-world full-stack development, backend API integration, and database handling.
+
+---
+
+## 🚀 Features
+
+- ✅ Add new students
+- ✏️ Edit existing student details
+- 🗑 Delete students
+- 🔍 Search students by name or email
+- 🔃 Sort students alphabetically (A–Z / Z–A)
+- 📋 View student details in a clean dashboard
+- 🌐 MongoDB database integration
+- ⚡ Real-time UI updates without page reload
+
+---
+
+## 🛠 Tech Stack
+
+- Typescript
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- Next.js API Routes
+- Node.js
+- MongoDB
+- 
+🧠 Learning Outcomes
+
+Hands-on experience with Next.js App Router
+
+Creating REST APIs using Next.js API routes
+
+MongoDB schema design and CRUD operations
+
+Debugging real-world frontend–backend issues
+
+Managing application state in React
+
+Using Git & GitHub for version control
+
+
+
 
 ## Getting Started
 
