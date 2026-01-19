@@ -35,16 +35,21 @@ export async function POST(req: Request) {
       );
     }
 
-    const token = jwt.sign(
-      { userId: user._id, email: user.email },
-      JWT_SECRET,
-      { expiresIn: "1d" }
-    );
+const token = jwt.sign(
+  {
+  userId: "...",
+  email: "...",
+  role: user.role
+  },
+  JWT_SECRET,
+  { expiresIn: "1d" }
+);
 
-    return NextResponse.json({
-      message: "Login successful",
-      token,
-    });
+return NextResponse.json({
+  message: "Login successful",
+  token,
+  role: user.role, // 
+});
   } catch (error) {
     return NextResponse.json(
       { error: "Login failed" },
@@ -52,3 +57,6 @@ export async function POST(req: Request) {
     );
   }
 }
+
+
+
